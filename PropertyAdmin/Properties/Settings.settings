@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PropertyAdmin.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PropertyAdmin_ECXSecurityAccess_ECXSecurityAccess" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.1.5.20:5000/ECXSecurity/ECXSecurityAccess.asmx</Value>
+    </Setting>
+    <Setting Name="PropertyAdmin_ecxlookup_ECXLookup" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.1.5.20:5000/ecxlookup/ecxlookup.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

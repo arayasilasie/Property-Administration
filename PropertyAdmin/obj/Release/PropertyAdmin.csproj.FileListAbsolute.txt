@@ -1,0 +1,20 @@
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.dll
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.pdb
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\PropertyAdmin\bin\BLL.dll
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\PropertyAdmin\bin\BLL.pdb
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\PropertyAdmin\obj\Release\PropertyAdmin.csprojResolveAssemblyReference.cache
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\PropertyAdmin\obj\Release\PropertyAdmin.Reports.rptSR.resources
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\PropertyAdmin\obj\Release\PropertyAdmin.csproj.GenerateResource.Cache
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\PropertyAdmin\obj\Release\PropertyAdmin.dll.licenses
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\PropertyAdmin\obj\Release\PropertyAdmin.dll
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\PropertyAdmin\obj\Release\PropertyAdmin.pdb
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\obj\Release\PropertyAdmin.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\obj\Release\PropertyAdmin.dll.licenses
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\obj\Release\PropertyAdmin.dll
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\obj\Release\PropertyAdmin.pdb
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\obj\Release\PropertyAdmin.XmlSerializers.dll
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\bin\PropertyAdmin.dll
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\bin\PropertyAdmin.XmlSerializers.dll
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\bin\PropertyAdmin.pdb
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\bin\BLL.dll
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\bin\BLL.pdb

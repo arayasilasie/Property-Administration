@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2016-05-23T13:51:25.9141698+03:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>12/01/2014 10:44:22</publishTime>
+    </File>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>12/01/2014 10:44:20</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx">
+      <publishTime>12/01/2014 10:44:20</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>12/01/2014 10:44:20</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>12/01/2014 10:44:20</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>12/01/2014 10:44:22</publishTime>
+    </File>
+    <File Include="ApproveFAIV.aspx">
+      <publishTime>10/27/2016 17:30:12</publishTime>
+    </File>
+    <File Include="ApproveFAR.aspx">
+      <publishTime>10/27/2016 18:58:09</publishTime>
+    </File>
+    <File Include="ApproveRMRN.aspx">
+      <publishTime>10/27/2016 17:30:12</publishTime>
+    </File>
+    <File Include="ApproveRMTN.aspx">
+      <publishTime>10/27/2016 17:30:12</publishTime>
+    </File>
+    <File Include="ApproveSIV.aspx">
+      <publishTime>06/21/2016 16:59:55</publishTime>
+    </File>
+    <File Include="ApproveSR.aspx">
+      <publishTime>10/27/2016 17:30:12</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>05/24/2016 17:35:25</publishTime>
+    </File>
+    <File Include="bin/BLL.dll">
+      <publishTime>10/27/2016 19:38:43</publishTime>
+    </File>
+    <File Include="bin/BLL.pdb">
+      <publishTime>07/13/2015 10:10:48</publishTime>
+    </File>
+    <File Include="bin/PropertyAdmin.dll">
+      <publishTime>10/27/2016 19:39:46</publishTime>
+    </File>
+    <File Include="bin/PropertyAdmin.pdb">
+      <publishTime>07/13/2015 10:10:49</publishTime>
+    </File>
+    <File Include="bin/PropertyAdmin.XmlSerializers.dll">
+      <publishTime>10/27/2016 19:39:51</publishTime>
+    </File>
+    <File Include="BinCard.aspx">
+      <publishTime>05/18/2016 17:28:55</publishTime>
+    </File>
+    <File Include="Custodian.aspx">
+      <publishTime>05/23/2016 13:57:49</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>02/13/2015 16:32:56</publishTime>
+    </File>
+    <File Include="DisposedItms.aspx">
+      <publishTime>09/23/2016 18:47:03</publishTime>
+    </File>
+    <File Include="FAIV.aspx">
+      <publishTime>10/24/2016 17:06:35</publishTime>
+    </File>
+    <File Include="FARN.aspx">
+      <publishTime>10/19/2016 18:47:23</publishTime>
+    </File>
+    <File Include="FARReport.aspx">
+      <publishTime>10/31/2016 11:14:36</publishTime>
+    </File>
+    <File Include="FixedAsset.aspx">
+      <publishTime>05/18/2016 17:29:03</publishTime>
+    </File>
+    <File Include="FixedAssetCard.aspx">
+      <publishTime>05/18/2016 17:28:55</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/01/2014 10:44:22</publishTime>
+    </File>
+    <File Include="GRN.aspx">
+      <publishTime>10/19/2016 18:47:21</publishTime>
+    </File>
+    <File Include="GRNReport.aspx">
+      <publishTime>10/31/2016 11:14:37</publishTime>
+    </File>
+    <File Include="HTMLPage1.htm">
+      <publishTime>03/12/2015 11:38:22</publishTime>
+    </File>
+    <File Include="Images/add.png">
+      <publishTime>07/09/2015 17:15:06</publishTime>
+    </File>
+    <File Include="Images/add_.png">
+      <publishTime>07/09/2015 17:17:26</publishTime>
+    </File>
+    <File Include="Images/backHeader.jpg">
+      <publishTime>12/01/2014 11:05:36</publishTime>
+    </File>
+    <File Include="Images/backHeader.png">
+      <publishTime>12/01/2014 11:05:36</publishTime>
+    </File>
+    <File Include="Images/Delete.png">
+      <publishTime>01/23/2015 14:17:50</publishTime>
+    </File>
+    <File Include="Images/Edit brush.png">
+      <publishTime>12/24/2014 11:41:40</publishTime>
+    </File>
+    <File Include="Images/Editpencil.png">
+      <publishTime>01/23/2015 14:18:08</publishTime>
+    </File>
+    <File Include="Images/logo.png">
+      <publishTime>12/01/2014 11:05:36</publishTime>
+    </File>
+    <File Include="Images/meanu1Header.jpg">
+      <publishTime>12/01/2014 11:05:36</publishTime>
+    </File>
+    <File Include="Images/meanuHeader.jpg">
+      <publishTime>12/01/2014 11:05:36</publishTime>
+    </File>
+    <File Include="Images/minus.png">
+      <publishTime>12/01/2014 11:05:36</publishTime>
+    </File>
+    <File Include="Images/NoRecord.png">
+      <publishTime>12/01/2014 11:05:36</publishTime>
+    </File>
+    <File Include="Images/Pencil-icon.png">
+      <publishTime>01/23/2015 14:11:22</publishTime>
+    </File>
+    <File Include="Images/plus.png">
+      <publishTime>12/01/2014 11:05:36</publishTime>
+    </File>
+    <File Include="Images/search-add-icon.png">
+      <publishTime>09/13/2012 10:31:02</publishTime>
+    </File>
+    <File Include="Images/search-remove-icon.png">
+      <publishTime>09/13/2012 10:31:02</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>08/16/2016 11:04:40</publishTime>
+    </File>
+    <File Include="LookUp.aspx">
+      <publishTime>06/15/2016 16:42:38</publishTime>
+    </File>
+    <File Include="MaintenanceFA.aspx">
+      <publishTime>05/18/2016 17:28:56</publishTime>
+    </File>
+    <File Include="Messages.ascx">
+      <publishTime>12/04/2014 17:10:36</publishTime>
+    </File>
+    <File Include="pLogin.aspx">
+      <publishTime>08/26/2015 15:47:09</publishTime>
+    </File>
+    <File Include="PRApprove.aspx">
+      <publishTime>10/17/2016 17:31:33</publishTime>
+    </File>
+    <File Include="PurchasesRequest.aspx">
+      <publishTime>10/19/2016 18:47:21</publishTime>
+    </File>
+    <File Include="ReportViewer.aspx">
+      <publishTime>12/24/2014 17:03:20</publishTime>
+    </File>
+    <File Include="RMRN.aspx">
+      <publishTime>10/24/2016 12:05:34</publishTime>
+    </File>
+    <File Include="RMTN.aspx">
+      <publishTime>10/19/2016 18:47:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>12/01/2014 10:44:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>12/01/2014 10:44:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>12/01/2014 10:44:22</publishTime>
+    </File>
+    <File Include="SignOut.aspx">
+      <publishTime>08/16/2016 12:07:36</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>10/27/2016 19:43:58</publishTime>
+    </File>
+    <File Include="StoreIssueVoucher.aspx">
+      <publishTime>10/20/2016 16:33:12</publishTime>
+    </File>
+    <File Include="StroreRequest.aspx">
+      <publishTime>10/24/2016 12:05:35</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>08/16/2016 11:21:37</publishTime>
+    </File>
+    <File Include="TFAB.aspx">
+      <publishTime>06/01/2015 15:30:16</publishTime>
+    </File>
+    <File Include="TotalReport.aspx">
+      <publishTime>09/23/2016 18:47:03</publishTime>
+    </File>
+    <File Include="VerifyFARN.aspx">
+      <publishTime>10/27/2016 17:30:12</publishTime>
+    </File>
+    <File Include="VerifyGRN.aspx">
+      <publishTime>10/27/2016 17:30:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/31/2016 11:14:38</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>07/06/2015 18:39:40</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

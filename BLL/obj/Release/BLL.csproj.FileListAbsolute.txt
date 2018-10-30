@@ -1,0 +1,11 @@
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\BLL\bin\Release\BLL.dll
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\BLL\bin\Release\BLL.pdb
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\BLL\obj\Release\BLL.dll.licenses
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\BLL\obj\Release\BLL.dll
+C:\Users\senait.balkew\documents\visual studio 2010\Projects\PropertyAdmin\BLL\obj\Release\BLL.pdb
+C:\inetpub\wwwroot\Property Administration\BLL\bin\Release\BLL.dll
+C:\inetpub\wwwroot\Property Administration\BLL\bin\Release\BLL.pdb
+C:\inetpub\wwwroot\Property Administration\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Property Administration\BLL\obj\Release\BLL.dll.licenses
+C:\inetpub\wwwroot\Property Administration\BLL\obj\Release\BLL.dll
+C:\inetpub\wwwroot\Property Administration\BLL\obj\Release\BLL.pdb

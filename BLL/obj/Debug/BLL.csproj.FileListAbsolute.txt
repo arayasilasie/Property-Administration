@@ -1,0 +1,69 @@
+C:\Users\senait.balkew\Documents\Visual Studio 2010\Projects\PropertyAdmin\BLL\bin\Debug\BLL.dll
+C:\Users\senait.balkew\Documents\Visual Studio 2010\Projects\PropertyAdmin\BLL\bin\Debug\BLL.pdb
+C:\Users\senait.balkew\Documents\Visual Studio 2010\Projects\PropertyAdmin\BLL\obj\Debug\BLL.dll.licenses
+C:\Users\senait.balkew\Documents\Visual Studio 2010\Projects\PropertyAdmin\BLL\obj\Debug\BLL.dll
+C:\Users\senait.balkew\Documents\Visual Studio 2010\Projects\PropertyAdmin\BLL\obj\Debug\BLL.pdb
+C:\Users\Seni\Documents\Visual Studio 2010\Projects\PropertyAdmin\BLL\bin\Debug\BLL.dll
+C:\Users\Seni\Documents\Visual Studio 2010\Projects\PropertyAdmin\BLL\bin\Debug\BLL.pdb
+C:\Users\Seni\Documents\Visual Studio 2010\Projects\PropertyAdmin\BLL\obj\Debug\BLL.dll.licenses
+C:\Users\Seni\Documents\Visual Studio 2010\Projects\PropertyAdmin\BLL\obj\Debug\BLL.dll
+C:\Users\Seni\Documents\Visual Studio 2010\Projects\PropertyAdmin\BLL\obj\Debug\BLL.pdb
+F:\PA 2\PropertyAdmin\BLL\bin\Debug\BLL.dll
+F:\PA 2\PropertyAdmin\BLL\bin\Debug\BLL.pdb
+F:\PA 2\PropertyAdmin\BLL\obj\Debug\BLL.dll.licenses
+F:\PA 2\PropertyAdmin\BLL\obj\Debug\BLL.dll
+F:\PA 2\PropertyAdmin\BLL\obj\Debug\BLL.pdb
+C:\Users\Seni\Desktop\My Doc\PA 4\PropertyAdmin\BLL\bin\Debug\BLL.dll
+C:\Users\Seni\Desktop\My Doc\PA 4\PropertyAdmin\BLL\bin\Debug\BLL.pdb
+C:\Users\Seni\Desktop\My Doc\PA 4\PropertyAdmin\BLL\obj\Debug\BLL.dll.licenses
+C:\Users\Seni\Desktop\My Doc\PA 4\PropertyAdmin\BLL\obj\Debug\BLL.dll
+C:\Users\Seni\Desktop\My Doc\PA 4\PropertyAdmin\BLL\obj\Debug\BLL.pdb
+F:\PropertyAdmin\BLL\bin\Debug\BLL.dll
+F:\PropertyAdmin\BLL\bin\Debug\BLL.pdb
+F:\PropertyAdmin\BLL\obj\Debug\BLL.dll.licenses
+F:\PropertyAdmin\BLL\obj\Debug\BLL.dll
+F:\PropertyAdmin\BLL\obj\Debug\BLL.pdb
+F:\PropertyAdmin - Copy\BLL\bin\Debug\BLL.dll
+F:\PropertyAdmin - Copy\BLL\bin\Debug\BLL.pdb
+F:\PropertyAdmin - Copy\BLL\obj\Debug\BLL.dll.licenses
+F:\PropertyAdmin - Copy\BLL\obj\Debug\BLL.dll
+F:\PropertyAdmin - Copy\BLL\obj\Debug\BLL.pdb
+C:\Users\Seni\Desktop\My Doc\PA\PropertyAdmin\BLL\bin\Debug\BLL.dll
+C:\Users\Seni\Desktop\My Doc\PA\PropertyAdmin\BLL\bin\Debug\BLL.pdb
+C:\Users\Seni\Desktop\My Doc\PA\PropertyAdmin\BLL\obj\Debug\BLL.dll.licenses
+C:\Users\Seni\Desktop\My Doc\PA\PropertyAdmin\BLL\obj\Debug\BLL.dll
+C:\Users\Seni\Desktop\My Doc\PA\PropertyAdmin\BLL\obj\Debug\BLL.pdb
+F:\PA\PropertyAdmin\BLL\bin\Debug\BLL.dll
+F:\PA\PropertyAdmin\BLL\bin\Debug\BLL.pdb
+F:\PA\PropertyAdmin\BLL\obj\Debug\BLL.dll.licenses
+F:\PA\PropertyAdmin\BLL\obj\Debug\BLL.dll
+F:\PA\PropertyAdmin\BLL\obj\Debug\BLL.pdb
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\BLL\bin\Debug\BLL.dll
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\BLL\bin\Debug\BLL.pdb
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\BLL\obj\Debug\BLL.dll.licenses
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\BLL\obj\Debug\BLL.dll
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\BLL\obj\Debug\BLL.pdb
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\BLL\bin\Debug\BLL.dll
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\BLL\bin\Debug\BLL.pdb
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\BLL\obj\Debug\BLL.dll.licenses
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\BLL\obj\Debug\BLL.dll
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\BLL\obj\Debug\BLL.pdb
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\BLL\bin\Debug\BLL.dll
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\BLL\bin\Debug\BLL.pdb
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\BLL\obj\Debug\BLL.dll.licenses
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\BLL\obj\Debug\BLL.dll
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\BLL\obj\Debug\BLL.pdb
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\BLL\bin\Debug\BLL.dll
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\BLL\bin\Debug\BLL.pdb
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\BLL\obj\Debug\BLL.dll.licenses
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\BLL\obj\Debug\BLL.dll
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\BLL\obj\Debug\BLL.pdb
+C:\inetpub\wwwroot\Property Administration\BLL\bin\Debug\BLL.dll
+C:\inetpub\wwwroot\Property Administration\BLL\bin\Debug\BLL.pdb
+C:\inetpub\wwwroot\Property Administration\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Property Administration\BLL\obj\Debug\BLL.dll.licenses
+C:\inetpub\wwwroot\Property Administration\BLL\obj\Debug\BLL.dll
+C:\inetpub\wwwroot\Property Administration\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E8127D16-650A-4DDD-8C89-AB2297BD5557}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveReports.Document, Version=6.0.2250.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.Viewer6, Version=6.0.2250.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports6, Version=6.0.2250.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseBLL.cs" />
+    <Compile Include="BINCardBLL.cs" />
+    <Compile Include="BorrowedFixedAssetBLL.cs" />
+    <Compile Include="CachingBusinessBLL.cs" />
+    <Compile Include="CoditionBLL.cs" />
+    <Compile Include="EmployeeBLL.cs" />
+    <Compile Include="EmployeeLocationBLL.cs" />
+    <Compile Include="FAIVBLL.cs" />
+    <Compile Include="FARNBLL.cs" />
+    <Compile Include="FixedAssetBLL.cs" />
+    <Compile Include="FixedAssetCardBLL.cs" />
+    <Compile Include="GRNBLL.cs" />
+    <Compile Include="ItemBLL.cs" />
+    <Compile Include="ItemTypeBLL.cs" />
+    <Compile Include="MaintenanceBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseRequestBLL.cs" />
+    <Compile Include="RequestTypeBLL.cs" />
+    <Compile Include="ReturnedMaterialBLL.cs" />
+    <Compile Include="SQLHelper.cs" />
+    <Compile Include="StoreIssueVoucherBLL.cs" />
+    <Compile Include="StoreRequestBLL.cs" />
+    <Compile Include="SupplyCategoryBLL.cs" />
+    <Compile Include="TransferedMaterialBLL.cs" />
+    <Compile Include="TransferredItemsBLL.cs" />
+    <Compile Include="UnitBLL.cs" />
+    <Compile Include="WorkUnitBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

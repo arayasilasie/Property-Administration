@@ -1,0 +1,731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED84869F-4E57-4B2E-A13C-5DD818AD7E85}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PropertyAdmin</RootNamespace>
+    <AssemblyName>PropertyAdmin</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveReports.Chart, Version=6.0.2250.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\My Document\Trainings  Materials\Active Report\ActiveReport dlls\ActiveReports.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveReports.CodeDomSerializer6, Version=6.0.2250.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\My Document\Trainings  Materials\Active Report\ActiveReport dlls\ActiveReports.CodeDomSerializer6.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveReports.Design6, Version=6.0.2250.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\My Document\Trainings  Materials\Active Report\ActiveReport dlls\ActiveReports.Design6.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveReports.Document, Version=6.0.2250.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.PdfExport, Version=6.0.2250.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\My Document\Trainings  Materials\Active Report\ActiveReport dlls\ActiveReports.PdfExport.dll</HintPath>
+    </Reference>
+    <Reference Include="ActiveReports.Viewer6, Version=6.0.2250.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="ActiveReports.Web, Version=6.0.2250.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ActiveReports6, Version=6.0.2250.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="AjaxControlToolkit, Version=3.0.30512.30637, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Chart.v10, Version=10.2.8028.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="GrapeCity.ActiveReports.Diagnostics.v10, Version=10.2.8028.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="GrapeCity.ActiveReports.Document.v10, Version=10.2.8028.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="GrapeCity.ActiveReports.Extensibility.v10, Version=10.2.8028.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="GrapeCity.ActiveReports.v10, Version=10.2.8028.0, Culture=neutral, PublicKeyToken=cc4967777c49a3ff" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="ApproveFAIV.aspx" />
+    <Content Include="ApproveFAR.aspx" />
+    <Content Include="DisposedItms.aspx" />
+    <Content Include="FARReport.aspx" />
+    <Content Include="GRNReport.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="ApproveRMRN.aspx" />
+    <Content Include="ApproveRMTN.aspx" />
+    <Content Include="ApproveSIV.aspx" />
+    <Content Include="ApproveSR.aspx" />
+    <Content Include="BinCard.aspx" />
+    <Content Include="FAIV.aspx" />
+    <Content Include="FARN.aspx" />
+    <Content Include="FixedAsset.aspx" />
+    <Content Include="FixedAssetCard.aspx" />
+    <Content Include="GRN.aspx" />
+    <Content Include="HTMLPage1.htm" />
+    <Content Include="Images\add.png" />
+    <Content Include="Images\add_.png" />
+    <Content Include="Images\backHeader.jpg" />
+    <Content Include="Images\backHeader.png" />
+    <Content Include="Images\Delete.png" />
+    <Content Include="Images\Edit brush.png" />
+    <Content Include="Images\Editpencil.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\meanu1Header.jpg" />
+    <Content Include="Images\meanuHeader.jpg" />
+    <Content Include="Images\minus.png" />
+    <Content Include="Images\NoRecord.png" />
+    <Content Include="Images\Pencil-icon.png" />
+    <Content Include="Images\plus.png" />
+    <Content Include="Images\search-add-icon.png" />
+    <Content Include="Images\search-remove-icon.png" />
+    <Content Include="LookUp.aspx" />
+    <Content Include="MaintenanceFA.aspx" />
+    <Content Include="Messages.ascx" />
+    <Content Include="pLogin.aspx" />
+    <Content Include="PRApprove.aspx" />
+    <Content Include="PurchasesRequest.aspx" />
+    <Content Include="ReportViewer.aspx" />
+    <Content Include="RMRN.aspx" />
+    <Content Include="RMTN.aspx" />
+    <Content Include="SignOut.aspx" />
+    <Content Include="StoreIssueVoucher.aspx" />
+    <Content Include="StroreRequest.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="TFAB.aspx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ecxlookup\CAllowance.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CBag.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CBank.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CBankAccountType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CBankBranch.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CBusinessLicenseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CCertification.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CCommodity.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CCommodityClass.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CCommodityGrade.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CCommodityGradeBag.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CCommodityType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CDivision.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CEducationAward.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CEmploymentType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CFee.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CFullCommodityGrade.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CGINType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CGRNType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CLanguage.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CLeaveType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CLevel.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CLocation.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CNationality.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CNIDType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CParticulars.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CPositionTitle.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CRegion.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CService.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CStep.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CTax.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CUnit.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CWarehouse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CWarehouseRecieptType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CWarehouseShed.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CWarehouseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CWoreda.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\CZone.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ecxlookup\ecxlookup.wsdl" />
+    <None Include="Web References\ecxlookup\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ECXSecurityAccess\AuthenticationStatus.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ECXSecurityAccess\CApplication.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ECXSecurityAccess\ECXSecurityAccess.disco" />
+    <Content Include="TotalReport.aspx" />
+    <Content Include="VerifyFARN.aspx" />
+    <Content Include="VerifyGRN.aspx" />
+    <None Include="Web References\ecxlookup\ecxlookup.disco" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Custodian.aspx" />
+    <None Include="Web References\ECXSecurityAccess\OUser.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ECXSecurityAccess\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveFAIV.aspx.cs">
+      <DependentUpon>ApproveFAIV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApproveFAIV.aspx.designer.cs">
+      <DependentUpon>ApproveFAIV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveFAR.aspx.cs">
+      <DependentUpon>ApproveFAR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApproveFAR.aspx.designer.cs">
+      <DependentUpon>ApproveFAR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisposedItms.aspx.cs">
+      <DependentUpon>DisposedItms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisposedItms.aspx.designer.cs">
+      <DependentUpon>DisposedItms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FARReport.aspx.cs">
+      <DependentUpon>FARReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FARReport.aspx.designer.cs">
+      <DependentUpon>FARReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GRNReport.aspx.cs">
+      <DependentUpon>GRNReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GRNReport.aspx.designer.cs">
+      <DependentUpon>GRNReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveRMRN.aspx.cs">
+      <DependentUpon>ApproveRMRN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApproveRMRN.aspx.designer.cs">
+      <DependentUpon>ApproveRMRN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveRMTN.aspx.cs">
+      <DependentUpon>ApproveRMTN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApproveRMTN.aspx.designer.cs">
+      <DependentUpon>ApproveRMTN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveSIV.aspx.cs">
+      <DependentUpon>ApproveSIV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApproveSIV.aspx.designer.cs">
+      <DependentUpon>ApproveSIV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveSR.aspx.cs">
+      <DependentUpon>ApproveSR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApproveSR.aspx.designer.cs">
+      <DependentUpon>ApproveSR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BinCard.aspx.cs">
+      <DependentUpon>BinCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BinCard.aspx.designer.cs">
+      <DependentUpon>BinCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAIV.aspx.cs">
+      <DependentUpon>FAIV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FAIV.aspx.designer.cs">
+      <DependentUpon>FAIV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FARN.aspx.cs">
+      <DependentUpon>FARN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FARN.aspx.designer.cs">
+      <DependentUpon>FARN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FixedAsset.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>FixedAsset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FixedAsset.aspx.designer.cs">
+      <DependentUpon>FixedAsset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FixedAssetCard.aspx.cs">
+      <DependentUpon>FixedAssetCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FixedAssetCard.aspx.designer.cs">
+      <DependentUpon>FixedAssetCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GRN.aspx.cs">
+      <DependentUpon>GRN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GRN.aspx.designer.cs">
+      <DependentUpon>GRN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LookUp.aspx.cs">
+      <DependentUpon>LookUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LookUp.aspx.designer.cs">
+      <DependentUpon>LookUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MaintenanceFA.aspx.cs">
+      <DependentUpon>MaintenanceFA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MaintenanceFA.aspx.designer.cs">
+      <DependentUpon>MaintenanceFA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.ascx.cs">
+      <DependentUpon>Messages.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Messages.ascx.designer.cs">
+      <DependentUpon>Messages.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PRApprove.aspx.cs">
+      <DependentUpon>PRApprove.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PRApprove.aspx.designer.cs">
+      <DependentUpon>PRApprove.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PurchasesRequest.aspx.cs">
+      <DependentUpon>PurchasesRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurchasesRequest.aspx.designer.cs">
+      <DependentUpon>PurchasesRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptFAR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptFAR.Designer.cs">
+      <DependentUpon>rptFAR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptFARN.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptFARN.Designer.cs">
+      <DependentUpon>rptFARN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptFAIV.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptFAIV.Designer.cs">
+      <DependentUpon>rptFAIV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRMTN.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRMTN.Designer.cs">
+      <DependentUpon>rptRMTN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptRMRN.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptRMRN.Designer.cs">
+      <DependentUpon>rptRMRN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSIV.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSIV.Designer.cs">
+      <DependentUpon>rptSIV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptGRN.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptGRN.Designer.cs">
+      <DependentUpon>rptGRN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptGPass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptGPass.Designer.cs">
+      <DependentUpon>rptGPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptSR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptSR.Designer.cs">
+      <DependentUpon>rptSR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewer.aspx.cs">
+      <DependentUpon>ReportViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportViewer.aspx.designer.cs">
+      <DependentUpon>ReportViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMRN.aspx.cs">
+      <DependentUpon>RMRN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMRN.aspx.designer.cs">
+      <DependentUpon>RMRN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RMTN.aspx.cs">
+      <DependentUpon>RMTN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RMTN.aspx.designer.cs">
+      <DependentUpon>RMTN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignOut.aspx.cs">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignOut.aspx.designer.cs">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="StoreIssueVoucher.aspx.cs">
+      <DependentUpon>StoreIssueVoucher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StoreIssueVoucher.aspx.designer.cs">
+      <DependentUpon>StoreIssueVoucher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StroreRequest.aspx.cs">
+      <DependentUpon>StroreRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StroreRequest.aspx.designer.cs">
+      <DependentUpon>StroreRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TFAB.aspx.cs">
+      <DependentUpon>TFAB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TFAB.aspx.designer.cs">
+      <DependentUpon>TFAB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TotalReport.aspx.cs">
+      <DependentUpon>TotalReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TotalReport.aspx.designer.cs">
+      <DependentUpon>TotalReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerifyFARN.aspx.cs">
+      <DependentUpon>VerifyFARN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerifyFARN.aspx.designer.cs">
+      <DependentUpon>VerifyFARN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerifyGRN.aspx.cs">
+      <DependentUpon>VerifyGRN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerifyGRN.aspx.designer.cs">
+      <DependentUpon>VerifyGRN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ecxlookup\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ECXSecurityAccess\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Custodian.aspx.cs">
+      <DependentUpon>Custodian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Custodian.aspx.designer.cs">
+      <DependentUpon>Custodian.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{E8127D16-650A-4DDD-8C89-AB2297BD5557}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://10.1.5.20:5000/ecxlookup/ecxlookup.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ecxlookup\</RelPath>
+      <UpdateFromURL>http://10.1.5.20:5000/ecxlookup/ecxlookup.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PropertyAdmin_ecxlookup_ECXLookup</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://10.1.5.20:5000/ECXSecurity/ECXSecurityAccess.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ECXSecurityAccess\</RelPath>
+      <UpdateFromURL>http://10.1.5.20:5000/ECXSecurity/ECXSecurityAccess.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PropertyAdmin_ECXSecurityAccess_ECXSecurityAccess</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\ECXSecurityAccess\ECXSecurityAccess.wsdl" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50822</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

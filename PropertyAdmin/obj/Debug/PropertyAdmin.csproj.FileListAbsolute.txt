@@ -1,0 +1,62 @@
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.csprojResolveAssemblyReference.cache
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.Reports.rptGPass.resources
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.Reports.rptSR.resources
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.csproj.GenerateResource.Cache
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.dll.licenses
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.dll
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.pdb
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\PropertyAdmin\bin\BLL.dll
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\PropertyAdmin\bin\BLL.pdb
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.dll
+C:\Users\Seni\Desktop\PA\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.pdb
+F:\PA\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.dll
+F:\PA\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.pdb
+F:\PA\PropertyAdmin\PropertyAdmin\bin\BLL.dll
+F:\PA\PropertyAdmin\PropertyAdmin\bin\BLL.pdb
+F:\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.csprojResolveAssemblyReference.cache
+F:\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.Reports.rptGPass.resources
+F:\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.Reports.rptSR.resources
+F:\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.csproj.GenerateResource.Cache
+F:\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.dll.licenses
+F:\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.dll
+F:\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.pdb
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.dll
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.pdb
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\PropertyAdmin\bin\BLL.dll
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\PropertyAdmin\bin\BLL.pdb
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.csprojResolveAssemblyReference.cache
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.Reports.rptGPass.resources
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.Reports.rptSR.resources
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.csproj.GenerateResource.Cache
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.dll.licenses
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.dll
+C:\Users\arayasilasie.bogale\Desktop\Property Admin\PA\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.pdb
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.dll
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.pdb
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\PropertyAdmin\bin\BLL.dll
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\PropertyAdmin\bin\BLL.pdb
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.csprojResolveAssemblyReference.cache
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.Reports.rptGPass.resources
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.Reports.rptSR.resources
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.csproj.GenerateResource.Cache
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.dll.licenses
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.dll
+C:\Users\Arayasilasie.Bogale\Desktop\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.pdb
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.dll.config
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.dll
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\PropertyAdmin\bin\PropertyAdmin.pdb
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\PropertyAdmin\bin\BLL.dll
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\PropertyAdmin\bin\BLL.pdb
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.csprojResolveAssemblyReference.cache
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.dll.licenses
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.dll
+C:\Users\arayasilasie.bogale\Documents\PropertyAdmin\PropertyAdmin\obj\Debug\PropertyAdmin.pdb
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\obj\Debug\PropertyAdmin.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\obj\Debug\PropertyAdmin.dll.licenses
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\obj\Debug\PropertyAdmin.dll
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\bin\PropertyAdmin.dll
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\bin\PropertyAdmin.pdb
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\bin\BLL.dll
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\bin\BLL.pdb
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\obj\Debug\PropertyAdmin.pdb
+C:\inetpub\wwwroot\Property Administration\PropertyAdmin\bin\PropertyAdmin.dll.config

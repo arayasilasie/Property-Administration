@@ -1,0 +1,205 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PropertyAdmin.SiteMaster" %>
+
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+    
+--%>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="logo">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/logo.png" />
+        </div>
+        <div class="header" style="background-image: url('./Images/backHeader.png'); height: 111px;">
+            <div class="headerTitle">
+                <h1>
+                    Property Management System
+                </h1>
+            </div>
+              <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" id="HeadLoginStatus" runat="server">Log In</a>
+                        ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold">
+                            <asp:LoginName ID="HeadLoginName" runat="server" />
+                        </span>! [
+                        <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out"
+                            LogoutPageUrl="~/SignOut.aspx" />
+                        ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+
+
+            <asp:Menu ID="mn" runat="server" BackColor="White" SkipLinkText=""
+                DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.9em" 
+                ForeColor="#666666" Orientation="Horizontal" 
+                StaticSubMenuIndent="8px" BorderStyle="None" Font-Underline="True">
+                <StaticSelectedStyle BackColor="White" ForeColor="#7F9556" />
+               <%-- <LevelSubMenuStyles>
+                    <asp:SubMenuStyle Font-Underline="False" />
+                </LevelSubMenuStyles>--%>
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" 
+                    BackColor="White" Font-Size="1em" ForeColor="#6A7C49" />
+                <DynamicHoverStyle BackColor="White" ForeColor="#6A7C49" Font-Bold="True" CssClass="IEFIX" />
+                <DynamicMenuStyle BackColor="#E3EAEB" CssClass="IE8Fix" />
+                <DynamicSelectedStyle BackColor="#1C5E55" CssClass="IE8Fix" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" 
+                    BackColor="White" ForeColor="#6A7C49" />
+                <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                <Items>
+                     <asp:MenuItem NavigateUrl="~/Custodian.aspx" Text="Home"></asp:MenuItem>
+                    
+                    <asp:MenuItem Text="Look Ups" 
+                        Value="Sampling Ticket" Selectable="False">
+                         <asp:MenuItem NavigateUrl="~/LookUp.aspx" Text="Look Ups" 
+                            Value="Sampler Attendance"></asp:MenuItem>
+                            
+                        <%--<asp:MenuItem NavigateUrl="~/LookUp.aspx" Text="Item Type" 
+                            Value="Sampler Attendance"></asp:MenuItem>
+
+                             <asp:MenuItem NavigateUrl="~/LookUp.aspx" Text="Request Type" 
+                            Value="Sampler Attendance"></asp:MenuItem>
+                            
+                        <asp:MenuItem NavigateUrl="~/LookUp.aspx" Text="Supply Category" 
+                            Value="Sampler Attendance"></asp:MenuItem>--%>
+                    </asp:MenuItem>
+                    
+                    <asp:MenuItem Text="Transactions" Value="Search GRN" Selectable="false" >
+                        <asp:MenuItem NavigateUrl="~/StroreRequest.aspx" Text="Store Request" Value="Add GRN">
+                        <asp:MenuItem NavigateUrl="~/ApproveSR.aspx" Text="Review/Approve SR" 
+                            Value="ApproveSR"></asp:MenuItem>
+                        
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/PurchasesRequest.aspx" Text="Purchase Request" 
+                            Value="GRNClientSign">
+                            <asp:MenuItem NavigateUrl="~/PRApprove.aspx" Text="ApprovePR" 
+                            Value="GRNClientSign"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/GRN.aspx" 
+                            Text="GRN" Value="GRN Cancellation">
+                            <asp:MenuItem NavigateUrl="~/VerifyGRN.aspx" Text="Verify GRN" 
+                            Value="GRNClientSign"></asp:MenuItem></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/StoreIssueVoucher.aspx" Text="SIV" Value="GRN Cancellation">
+                            <asp:MenuItem NavigateUrl="~/ApproveSIV.aspx" Text="Approve SIV" 
+                            Value="GRNClientSign"></asp:MenuItem>
+                            </asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Fixed Asset Management" Value="GIN" Selectable="false" >
+                        <asp:MenuItem NavigateUrl="~/FARN.aspx" Text="FA Receive Note (FARN)" >
+                        <asp:MenuItem NavigateUrl="~/VerifyFARN.aspx" Text="Verify FARN" 
+                            ></asp:MenuItem>
+                            </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/FixedAsset.aspx" Text="FA Register (FAR)" 
+                            ></asp:MenuItem>
+                               <%--<asp:MenuItem NavigateUrl="~/FixedAsset.aspx" Text="FA Request" 
+                            Value="PickupNoticeExpiredList">
+                            <asp:MenuItem NavigateUrl="~/ApproveFAR.aspx" Text="Approve Request" 
+                            Value="PSAApprove"></asp:MenuItem>
+                            </asp:MenuItem>--%>
+                               <asp:MenuItem NavigateUrl="~/FAIV.aspx" Text="FA Issue Voucher (FAIV)" 
+                            Value="GINApprovalReport">
+                            <asp:MenuItem NavigateUrl="~/ApproveFAIV.aspx" Text="Approve FAIV" 
+                            Value="PSAApprove"></asp:MenuItem>
+                            </asp:MenuItem>
+
+                             <asp:MenuItem NavigateUrl="~/RMRN.aspx" Text="Returned Material Receiving Note(RMRN)" 
+                            Value="PSAApprove">
+                            <asp:MenuItem NavigateUrl="~/ApproveRMRN.aspx" Text="Approve RMRN" 
+                            Value="PSAApprove"></asp:MenuItem>
+                            </asp:MenuItem>
+
+                             <asp:MenuItem NavigateUrl="~/RMTN.aspx" Text="Returned Material Transfer Note(RMTN)" 
+                            Value="Manager PSA Approve">
+                            <asp:MenuItem NavigateUrl="~/ApproveRMTN.aspx" Text="Approve RMTN" 
+                            Value="PSAApprove"></asp:MenuItem>
+                            </asp:MenuItem>                       
+                           
+                    </asp:MenuItem>
+                    <asp:MenuItem Selectable="false" Text="Card" 
+                        Value="Select Current Warehouse">
+                        <asp:MenuItem NavigateUrl="~/BinCard.aspx" 
+                            Text="Bin Card" Value="Add Physical Address"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/FixedAssetCard.aspx" Text="FA Card" Value="Add Stack">
+                        </asp:MenuItem>
+                          
+                    </asp:MenuItem>
+                   
+                    <asp:MenuItem Text="Reports" Value="Reports" Selectable="false" >
+
+                        <asp:MenuItem NavigateUrl="~/GRNReport.aspx" Text="GRNs" 
+                            Value="GRNPreApproval"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/FARReport.aspx" Text="FARs"></asp:MenuItem>
+
+                        <asp:MenuItem NavigateUrl="~/DisposedItms.aspx" Text="Disposed Items" Value="Stack Balance Report">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/totalReport.aspx" Text="Total Report"></asp:MenuItem>
+
+                  <%--  <asp:MenuItem NavigateUrl="" 
+                            Text="List of GRN Verified by Date" Value="WBServiceProvider Report"></asp:MenuItem>--%>
+                    </asp:MenuItem>
+                    
+                    <asp:MenuItem NavigateUrl="~/Login.aspx" Text="Sign Out" 
+                        Value="Sign Out"></asp:MenuItem>
+               
+                </Items>
+            </asp:Menu>
+</div>
+
+                <%--<asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                    IncludeStyleBlock="false" Orientation="Horizontal">
+                    <StaticSelectedStyle BackColor="Red"  />
+                    <Items>
+                       
+                        <asp:MenuItem NavigateUrl="~/StroreRequest.aspx" Text="SR"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/PurchasesRequest.aspx" Text="PR"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/GRN.aspx" Text="GRN"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/StoreIssueVoucher.aspx" Text="SIV" />
+                        <asp:MenuItem NavigateUrl="~/FARN.aspx" Text="FARN"></asp:MenuItem>
+                         <asp:MenuItem NavigateUrl="~/FixedAsset.aspx" Text="FAR" /> 
+                         <asp:MenuItem NavigateUrl="~/FAIV.aspx" Text="FAIV" />                                            
+                        <asp:MenuItem NavigateUrl="~/RMRN.aspx" Text="RMRN" />
+                        <asp:MenuItem NavigateUrl="~/RMTN.aspx" Text="RMTN"></asp:MenuItem>
+                      <asp:MenuItem NavigateUrl="~/MaintenanceFA.aspx" Text="Maintenance" />--%>
+
+                         <%--  <asp:MenuItem NavigateUrl="~/TFAB.aspx" Text="TFAB"></asp:MenuItem>--%>
+                       <%-- <asp:MenuItem NavigateUrl="~/BinCard.aspx" Text="BINCard"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/FixedAssetCard.aspx" Text="FACard"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>--%>
+            
+        </div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div class="main">
+            <asp:Label ID="lblGlobalMessage" runat="server" Text=""></asp:Label>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    
+    </div>
+    <%-- <div class="footer">
+       
+       
+      ©
+        <%= DateTime.Now.Year %>
+        Ethiopia Commodity Exchange. All rights reserved.
+    </div>--%>
+    </form>
+</body>
+</html>

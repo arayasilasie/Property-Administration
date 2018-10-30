@@ -1,0 +1,625 @@
+﻿        /* DEFAULTS
+----------------------------------------------------------*/
+
+        body
+        {
+            background: #b6b7bc;
+            font-size: .80em;
+            font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            color: #696969;
+        }
+        
+        a:link, a:visited
+        {
+            color: #034af3;
+        }
+        
+        a:hover
+        {
+            color: #1d60ff;
+            text-decoration: none;
+        }
+        
+        a:active
+        {
+            color: #034af3;
+        }
+        
+        p
+        {
+            margin-bottom: 10px;
+            line-height: 1.6em;
+        }
+        
+        
+        /* HEADINGS   
+----------------------------------------------------------*/
+        
+        h1, h2, h3, h4, h5, h6
+        {
+            font-size: 1.5em;
+            color: #666666;
+            font-variant: small-caps;
+            text-transform: none;
+            font-weight: 200;
+            margin-bottom: 0px;
+        }
+        
+        h1
+        {
+            font-size: 1.6em;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+        
+        h2
+        {
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        
+        h3
+        {
+            font-size: 1.2em;
+        }
+        
+        h4
+        {
+            font-size: 1.1em;
+        }
+        
+        h5, h6
+        {
+            font-size: 1em;
+        }
+        
+        /* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+        .rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+        {
+            margin-top: 0px;
+        }
+        
+        
+        /* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+        
+        .page
+        {
+            width: 960px;
+            background-color: #fff;
+            margin: 20px auto 0px auto;
+            border: 1px solid #496077;
+            box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+            -webkit-border-radius: 95px 10px 0px 0px;
+            border-radius: 95px 10px 0px 0px;
+        }
+        
+        .header
+        {
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+            background: #4b6c9e;
+            width: 100%;
+            height: 111px;
+            -webkit-border-radius: 95px 10px 0px 0px;
+            border-radius: 95px 10px 0px 0px;
+        }
+        
+        .header h1
+        {
+            font-weight: 700;
+            margin: 0px;
+            padding: 0px 0px 20px 80px;
+            color: #f9f9f9;
+            border: none;
+            line-height: 2em;
+            font-size: 2em;
+        }
+        
+        .main
+        {
+            padding: 0px 12px;
+            margin: 12px 8px 8px 8px;
+            min-height: 520px;
+        }
+        
+        .leftCol
+        {
+            padding: 6px 0px;
+            margin: 12px 8px 8px 8px;
+            width: 200px;
+            min-height: 200px;
+        }
+        
+        .footer
+        {
+            color: #4e5766;
+            padding: 8px 0px 0px 0px;
+            margin: 0px auto;
+            text-align: center;
+            line-height: normal;
+            background-color: ThreeDShadow;
+            min-height: 50px;
+        }
+        .logo
+        {
+            float: right;
+            position: absolute;
+            z-index: 9999;
+            margin-left: 780px;
+        }
+        
+        /* TAB MENU   
+----------------------------------------------------------*/
+        
+        div.hideSkiplink
+        {
+            width: 100%;
+        }
+        
+        div.menu
+        {
+            padding: 4px 0px 4px 8px;
+        }
+        
+        div.menu ul
+        {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            width: auto;
+        }
+        
+        div.menu ul li a, div.menu ul li a:visited
+        {
+            border: 1px #fdbf12 solid; /*border: 1px #ffffff solid;*/
+            color: #dde4ec;
+            display: block;
+            line-height: 1.35em;
+            padding: 4px 15px;
+            margin-left: 5px;
+            text-decoration: none;
+            white-space: nowrap;
+            width: inherit;
+        }
+        
+        div.menu ul li a:hover
+        {
+            background-color: #bfcbd6;
+            color: #465c71;
+            text-decoration: none;
+            box-shadow: rgba(255,255,255,0.9) 0 0 8px;
+            -webkit-border-radius: 100px 00px 0px 0px;
+            border-radius: 100px 00px 0px 0px;
+        }
+        
+        div.menu ul li a:active
+        {
+            background-color: #465c71;
+            color: #cfdbe6;
+            text-decoration: none;
+            box-shadow: rgba(255,255,255,0.9) 0 0 8px;
+            -webkit-border-radius: 100px 00px 0px 0px;
+            border-radius: 100px 00px 0px 0px;
+            background-image: url('/images/meanuHeader.jpg');
+        }
+        
+        /* FORM ELEMENTS   
+----------------------------------------------------------*/
+        
+        fieldset
+        {
+            margin: 1em 0px;
+            padding: 1em;
+            border: 1px solid #ccc;
+        }
+        
+        fieldset p
+        {
+            margin: 2px 12px 10px 10px;
+        }
+        
+        fieldset.login label, fieldset.register label, fieldset.changePassword label
+        {
+            display: block;
+        }
+        
+        fieldset label.inline
+        {
+            display: inline;
+        }
+        
+        legend
+        {
+            font-size: 1.1em;
+            font-weight: 600;
+            padding: 2px 4px 8px 4px;
+        }
+        
+        input.textEntry
+        {
+            width: 320px;
+            border: 1px solid #ccc;
+        }
+        
+        input.passwordEntry
+        {
+            width: 320px;
+            border: 1px solid #ccc;
+        }
+        
+        div.accountInfo
+        {
+            width: 42%;
+            border:solid;
+            border-width:thin;
+        }
+        
+        /* MISC  
+----------------------------------------------------------*/
+        
+        .clear
+        {
+            clear: both;
+        }
+        
+        .headerTitle
+        {
+            display: block;
+            float: left;
+            text-align: left;
+            width: auto;
+        }
+        
+        .loginDisplay
+        {
+            font-size: 1.1em;
+            display: block;
+            text-align: right;
+            padding: 10px;
+            color: White;
+        }
+        
+        .loginDisplay a:link
+        {
+            color: white;
+        }
+        
+        .loginDisplay a:visited
+        {
+            color: white;
+        }
+        
+        .loginDisplay a:hover
+        {
+            color: white;
+        }
+        
+        .failureNotification
+        {
+            font-size: 1.2em;
+            color: Red;
+        }
+        
+        .bold
+        {
+            font-weight: bold;
+        }
+        
+        .submitButton
+        {
+            text-align: right;
+            padding-right: 10px;
+        }
+        
+        
+ /******************************  Content  ************************************** */
+        
+        
+        
+        .title
+        {
+            padding-left: 15px;
+            clear: both;
+            background-color: #c7e3b6;
+            font-variant: normal;
+            font-variant: small-caps;
+            font-weight: 500;
+            font-size: x-large;
+        }
+        .titleSub
+        {
+            padding-left: 15px;
+            padding-right: 15px;
+            clear: both;
+            background-color: #c7e3b6;
+            font-variant: normal;
+            font-variant: small-caps;
+            font-weight: 500;
+            font-size: large;
+            text-align: center;
+        }
+        .titleSub2
+        {
+            padding-left: 15px;
+            padding-right: 15px;
+            clear: both;
+            background-color: #c7e3b6;
+            color: #ffffff;
+            font-variant: normal;
+            font-variant: small-caps;
+            font-weight: 500;
+            font-size: large;
+            font-weight: 600;
+            text-align: center;
+            width: 63%;
+            margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+        
+        .titleSub3
+        {
+            
+            padding-left: 15px;
+            padding-right: 15px;
+            clear: both;
+            background-color: #c7e3b6;
+            color: #ffffff;
+            font-variant: normal;
+            font-variant: small-caps;
+            font-weight: 500;
+            font-size: large;
+            font-weight: 500;
+            margin: 3px;
+            margin-bottom: 5px;
+        }
+        
+        titleSub4
+        {
+            padding-left: 15px;
+            padding-right: 15px;
+            clear: both;
+            background-color: #c7e3b6;
+            color: #ffffff;
+            font-variant: normal;
+            font-variant: small-caps;
+            font-weight: 500;
+            font-size: large;
+            font-weight: 600;
+            text-align: center;
+            width: 400px;
+            margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+        
+        
+        .leftContent
+        {
+            margin: 3px;
+            border: 1px solid #FDBF12;
+            padding: 10px;
+            float: left;
+            overflow: auto;
+        }
+        
+        .rightContent
+        {
+            margin: 3px;
+            border: 1px solid #FDBF12;
+            padding: 10px;
+            float: right;
+            overflow: auto;
+        }
+        
+        .content
+        {
+            font-size: small;
+    height: 324px;
+    width: 386px;
+}
+        .buttonArea
+        {
+            margin: 30px 0px 0px 0px;
+            padding: 2px 2px 2px 200px;
+            float: left;
+            text-align: right;
+            background-color: #c7e3b6;
+            border: 1px solid #FDBF12;
+        }
+        .parent
+        {
+            border: 1px solid #FDBF12;
+            padding: 5px;
+        }
+        .detailInfo td
+        {
+            border-bottom: 1px solid #FDBF12;
+        }
+        .detailInfo tbody td
+        {
+            border-bottom: 1px solid #FDBF12;
+        }
+        
+        
+        
+        /* popup styles */
+        .ModalPopupBG
+        {
+            background-color: #666699;
+            filter: alpha(opacity=50);
+            opacity: 0.7;
+        }
+        
+        .HellowWorldPopup
+        {
+            min-width: 200px;
+            min-height: 150px;
+            background: white;
+        }
+        
+        tr
+        {
+            padding-bottom: 20px;
+        }
+        
+        
+/******************************  Message  ************************************** */
+        .messages
+        {
+            width: 98%;
+            padding: 5px;
+            margin-left: 3px;
+        }
+        .messages-logo
+        {
+            height: 32px;
+            width: 32px;
+            float: left;
+            background: url(Images/message_logos.png);
+        }
+        .messages-text
+        {
+            margin-left: 40px;
+            padding: 6px 0;
+        }
+        .messages-error
+        {
+            background-color: #fbe3e4;
+            color: #d12f19;
+            border: solid 1px #fbc2c4;
+        }
+        .messages-error .messages-logo
+        {
+            background-position: -64px 0;
+        }
+        .messages-warning
+        {
+            background-color: #faffcf;
+            color: #5e5f00;
+            border: solid 1px #edef00;
+        }
+        .messages-warning .messages-logo
+        {
+            background-position: -32px 0;
+        }
+        .messages-success
+        {
+            background-color: #e0efd1;
+            color: #003300;
+            border: solid 1px #a5cc7a;
+        }
+        .messages-success .messages-logo
+        {
+            background-position: 0 0;
+        }
+        
+        
+/* ----------------------------- new formatting  -------------------------------- */
+        
+        .form
+        {
+            width: 40%;
+        }
+       
+        .controlContainer
+        {
+            height: 22px;
+        }
+        
+        .leftControl
+        {
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 40%;
+            float: left;
+        }
+
+        
+        .rightControl
+        {
+            float: left;
+            width: 50%;
+            height: 18px;
+         }  
+              
+        accordionHeader
+        {
+            background-image: url('Images/search-add-icon.png');
+            width: 32px;
+            height: 32px;
+        }
+        
+        
+        .accordionHeaderSelected
+        {
+            background-image: url('Images/search-remove-icon.png');
+            width: 32px;
+            height: 32px;
+        }
+        
+        .Label
+        {
+            display: block;
+            font-size: small;
+            font-family: 'Verdana';
+            color: #000000;
+        }
+        
+        #MainForm
+        {
+            margin-left: 50px;
+            width: 80%;
+            margin: 3px;
+            border: 1px solid #FDBF12;
+            padding: 10px;
+        }
+            
+          #LeftForm
+        {
+            float: left; /* margin-left: 65px;*/
+            margin-right: 35px;
+            margin-top: 0;
+        }
+        #RightForm
+        {
+            float: Left;
+        }
+        
+        .form2
+        {
+            width: 47%;
+        }
+        
+        
+        .btn
+        {
+            background: #c7e3b6;
+            background-image: -webkit-linear-gradient(top, #c7e3b6, #88AB2D);
+            background-image: -moz-linear-gradient(top, #c7e3b6, #88AB2D);
+            background-image: -ms-linear-gradient(top, #c7e3b6, #88AB2D);
+            background-image: -o-linear-gradient(top, #c7e3b6, #88AB2D);
+            background-image: linear-gradient(to bottom, #c7e3b6, #88AB2D); 
+            color: #ffffff;            
+            border: none;
+            padding: 2px 15px 2px 15px;
+            text-decoration: none;
+        }
+        
+        .btn:hover
+        {
+            background: #c9d160;
+            background-image: -webkit-linear-gradient(top, #c9d160, #7c9e14);
+            background-image: -moz-linear-gradient(top, #c9d160, #7c9e14);
+            background-image: -ms-linear-gradient(top, #c9d160, #7c9e14);
+            background-image: -o-linear-gradient(top, #c9d160, #7c9e14);
+            background-image: linear-gradient(to bottom, #c9d160, #7c9e14);
+            text-decoration: none;
+        }
